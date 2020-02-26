@@ -31,13 +31,13 @@ W trakcie semestru odbędą się dwa kolokwia. Piersze mniej więcej po 5 spotka
 ## 2. Literatura i materiały uzupełniające
 
 ### 2.1	"Python. Wprowadzenie. Wydanie IV, Mark Lutz"
-### 2.2 https://www.tutorialspoint.com/python3/index.htm
-### 2.3 https://www.learnpython.org/pl/
-### 2.4 https://www.codecademy.com/learn/learn-python-3 - wymagane założenie konta, część opcji dostępna w wersji PRO (płatnej)
-### 2.5 http://python101.readthedocs.io/pl/latest/
-### 2.6 https://leanpub.com/python_101 - bardzo dobry e-book wprowadzający do Pythona, wersja angielska, ale można ją pobrać za darmo.
-### 2.7 www.packtpub.com – można tutaj przechodząc do sekcji free learning otrzymać dostęp do dość obszernego zestawu darmowych e-booków. Dodatkowo dość często, przez ograniczony czas, pojawiają się nowe darmowe e-booki do pobrania lub dodania do  swojej biblioteki.
-### 2.8 www.humblebundle.com – możliwość zakupu całych zbiorów (nie tylko e-booki), które pojawiają się raz na jakiś czas, najczęściej wokół określonego tematu.
-### 2.9 Link do dokumentacji VSC + Python
-https://code.visualstudio.com/docs/python/python-tutorial
+### 2.2 Wprowadzenie do języka Python - Krzysztof Ropiak - http://wmii.uwm.edu.pl/~kropiak/wd/Wprowadzenie%20do%20j%c4%99zyka%20Python.pdf
+### 2.3 https://www.tutorialspoint.com/python3/index.htm
+### 2.4 https://www.learnpython.org/pl/
+### 2.5 https://www.codecademy.com/learn/learn-python-3 - wymagane założenie konta, część opcji dostępna w wersji PRO (płatnej)
+### 2.6 http://python101.readthedocs.io/pl/latest/
+### 2.7 https://leanpub.com/python_101 - bardzo dobry e-book wprowadzający do Pythona, wersja angielska, ale można ją pobrać za darmo.
+### 2.8 www.packtpub.com – można tutaj przechodząc do sekcji free learning otrzymać dostęp do dość obszernego zestawu darmowych e-booków. Dodatkowo dość często, przez ograniczony czas, pojawiają się nowe darmowe e-booki do pobrania lub dodania do  swojej biblioteki.
+### 2.9 www.humblebundle.com – możliwość zakupu całych zbiorów (nie tylko e-booki), które pojawiają się raz na jakiś czas, najczęściej wokół określonego tematu.
+### 2.10 Link do dokumentacji VSC + Python - https://code.visualstudio.com/docs/python/python-tutorial
 
