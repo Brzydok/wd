@@ -97,3 +97,7 @@ Jeżeli chemy kontynuować pracę z zawartością repozytorium na innym komputer
 git clone http://link.do.repo
 ```
 To polecenie __UTWORZY__ nowy folder o nazwie równej nazwie zdalnego repozytorium i umieści tam już informacje o jego stanie (folder .git) oraz informacji o remote (ten sam, z którego został sklonowany). Teraz wystarczy skonfigurować `user.name` oraz `user.email` i można dalej pracować, zatwierdzać zmiany i wypychać je ponownie do zdalnego repozytorium.
+
+### __Więcej ?__
+
+Polecam [git-scm.com](https://git-scm.com/book/pl/v2).
