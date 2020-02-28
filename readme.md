@@ -1,6 +1,6 @@
 # Wizualizacja danych
 
-## 1. Organizacja zajeć oraz zaliczenie przedmiotu
+## 1. Organizacja zajęć oraz zaliczenie przedmiotu
 
 ### 1.1 Wprowadzenie
 
@@ -26,7 +26,7 @@
 
 ### 1.6 Warunki zaliczenia przedmiotu
 
-W trakcie semestru odbędą się dwa kolokwia. Piersze mniej więcej po 5 spotkaniach z części opisanej we wstępie. Kolejne kolokwium odbędzie się na przedostatnich zajęciach i będzie obejmowało całość materiału z naciskiem na materiał od punktu 1.2 do 1.5. Oba kolokwia muszą być zaliczone na ocenę pozytywną, poprawa (obu) przewidziana jest na ostatnich zajęciach w semestrze. Po spełnieniu w/w warunków ocena średnia będzie oceną semestralną. 
+W trakcie semestru odbędą się dwa kolokwia. Piersze mniej więcej po 5 spotkaniach z części opisanej w punkcie 1.1. Kolejne kolokwium odbędzie się na przedostatnich zajęciach i będzie obejmowało całość materiału z naciskiem na materiał od punktu 1.2 do 1.5. Oba kolokwia muszą być zaliczone na ocenę pozytywną, poprawa (obu, jeżeli to konieczne) przewidziana jest na ostatnich zajęciach w semestrze. Po spełnieniu w/w warunków ocena średnia będzie oceną semestralną. 
 
 ## 2. Literatura i materiały uzupełniające
 
