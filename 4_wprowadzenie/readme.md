@@ -206,7 +206,7 @@ Dodajemy atrybut do instancji klasy
 class PierwszaKlasa:
     """Przykład klasy"""
     atrybut = 54321
-    def pierwsza_metoda(z):
+    def pierwsza_metoda(self, z):
         return "Teraz działa pierwsza Metoda"
 
 
