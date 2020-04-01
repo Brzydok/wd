@@ -43,21 +43,28 @@ można użyć komend:
 **Przykład 1**
 ```python
 plik = open("Ćw1_przyklad1.py","r")
+
 #odczyt 10 znaków z pliku
 znaki = plik.read(10)
+
 #odczyt jednej lini z pliku
 linia = plik.readline()
+
 #odczyt wierszy z pliku
 wiersze = plik.readlines()
+
 #zamkniecie pliku
 plik.close()
 #drukujemy 10 znakow
+
 print(znaki)
 print("\n")
 #drukujemy linię
+
 print(linia)
 print("\n")
 #drukujemy cały plik
+
 print(wiersze)
 print("\n")
 ```
@@ -75,23 +82,32 @@ Możemy wykorzystać instrukcje:
 **Przykład 2**
 ```python
 import sys
+
+
 print("Podaj kierunek studiów, rok i specjalność")
 # odczyt danych ze standadrdowego wejścia
 dane = sys.stdin.readline()
+
 # Otwieramy plik
 plik = open("dane.txt","w+")
+
 # Zpaisujemy do pliku
 plik.write(dane)
+
 # zamykamy plik
 plik.close()
+
 # tworzymy liste
 lista = []
 for x in range(1,6,1):
-lista += [x]
+    lista += [x]
+
 # otwieramy plik do dopisywania
 plik=open("dane.txt","a+")
+
 # zapisujemy
 plik.writelines(str(lista))
+
 # zamykamy
 plik.close()
 ```
@@ -102,8 +118,8 @@ plik.close()
 # wówczas nie musimy się martwić o zamykanie pliku
 # Pętla for pozwala na wyświetlenie pliku linijka po linijce
 with open("dane.txt", "r") as plik:
-for linia in plik:
-print(linia, end="")
+    for linia in plik:
+    print(linia, end="")
 ```
 
 **Zad. 1**  
@@ -196,13 +212,17 @@ class PierwszaKlasa:
 
 obiekt = PierwszaKlasa()
 print(obiekt)
+
 #drukujemy atrybut
 print(obiekt.atrybut)
+
 #drukujemy metodę
 print(obiekt.pierwsza_metoda())
+
 #dodajemy atrybut do istniejącego obiektu
 obiekt.tekst = "la la la"
 print(obiekt.tekst)
+
 #ale go nie będzie w nowej instancji klasy
 nowy_obiekt = PierwszaKlasa()
 print(nowy_obiekt.tekst)
@@ -240,9 +260,11 @@ class Ksztalty:
 
 # Tworzymy obiekt
 kwadrat= Ksztalty(10,30)
+
 # Sprawdzamy teraz jak działają metody które zwracają wartość
 print(kwadrat.pole_prostokata())
 print(kwadrat.obwod())
+
 # sprawdzamy jak działają metody, które nie zwracają wartości
 kwadrat.dodaj_opis("Kwadrat")
 print(kwadrat.opis)
@@ -290,14 +312,17 @@ class Ksztalty:
         return tekst
 
 
-#Tworzymy obiekt
+# Tworzymy obiekt
 Kwadrat = Ksztalty(10,30)
-#Sprawdzmy dostęp do zmiennej prywatnej
+
+# Sprawdzmy dostęp do zmiennej prywatnej
 print(kwadrat.__jestem_prywatna__)
-#a może uda nam się jeszcze zmienić wartość?
+
+# a może uda nam się jeszcze zmienić wartość?
 kwadrat.__jestem_prywatna__="na na na"
 print(kwadrat.__jestem_prywatna__)
-#spróbujmy czy nowa funkcja coś może zmienić
+
+# spróbujmy czy nowa funkcja coś może zmienić
 print(zmieniam_tekst(kwadrat.__jestem_prywatna__))
 ```
 
