@@ -136,7 +136,7 @@ class Kwadrat(Ksztalty):
         self.y = x
 
     def __str__(self):
-	    return 'Kwadrat o boku {}'.format(self.x)
+        return 'Kwadrat o boku {}'.format(self.x)
 
 kw = Kwadrat(5)
 print(kw)
