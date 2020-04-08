@@ -16,7 +16,7 @@ class Ksztalty:
         self.y=y
         self.opis = "To będzie klasa dla ogólnych kształtów"
 
-    def pole_prostokatu(self):
+    def pole(self):
         return self.x * self.y
 
     def obwod(self):
@@ -47,14 +47,14 @@ class KwadratowaLiteraL(Kwadrat):
     def obwod(self):
         return 8 * self.x
 
-    def pole_prostokatu(self):
+    def pole(self):
         return 3 * self.x * self.y
 
 print("inicjujemy klasę Kwadrat")
 figura = Kwadrat(5)
 
 # sprawdzamy metody z klasy bazowej
-print(figura.pole_prostokatu())
+print(figura.pole())
 
 print(figura.obwod())
 
@@ -71,7 +71,7 @@ litera_l = KwadratowaLiteraL(5)
 
 # sprawdzamy jakie możemy wywołać metody
 print(litera_l.obwod())
-print(litera_l.pole_prostokatu())
+print(litera_l.pole())
 litera_l.dodaj_opis("Litera L")
 print(litera_l.opis)
 litera_l.skalowanie(0.5)
@@ -120,19 +120,29 @@ Przykład przesłaniania metody został przedstawiony w przykładzie 1, ale wart
 
 ```python
 class Kwadrat(Ksztalty):
-
-    	def __init__(self, x):
-            self.x = x
-            self.y = x
-
-		def __str__(self):
-			return 'Kwadrat o boku {}'.format(self.x)
+    def __init__(self, x):
+        self.x = x
+        self.y = x
 
 kw = Kwadrat(5)
 print(kw)
 ```
-Na konsoli zostanie wypisany tekst:
-Kwadrat o boku 5
+
+```python
+class Kwadrat(Ksztalty):
+
+    def __init__(self, x):
+        self.x = x
+        self.y = x
+
+	def __str__(self):
+		return 'Kwadrat o boku {}'.format(self.x)
+
+kw = Kwadrat(5)
+print(kw)
+```
+
+W pierwszym przypadku zostanie wywołana metoda `__str__()` klasy `object`, bo w żadnej wcześniejszej klasie (Kwadrat, Ksztalty) taka metoda nie została znaleziona (funkcja print() wypisuje string więc najpierw mui nastąpić konwersja dowolnego typu na string).
 
 **Zad. 2**
 
@@ -153,7 +163,7 @@ class Point:
     counter = []
 
     def __init__(self, x=0, y=0):
-        """Konstuktor punktu."""
+        """Konstruktor punktu."""
         self.x = x
         self.y = y
 
