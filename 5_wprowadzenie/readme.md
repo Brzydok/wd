@@ -122,9 +122,9 @@ Przykład przesłaniania metody został przedstawiony w przykładzie 1, ale wart
 class Kwadrat(Ksztalty):
 
     	def __init__(self, x):
-        self.x = x
-        self.y = x
-		
+            self.x = x
+            self.y = x
+
 		def __str__(self):
 			return 'Kwadrat o boku {}'.format(self.x)
 
