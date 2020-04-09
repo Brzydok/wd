@@ -119,7 +119,7 @@ plik.close()
 # Pętla for pozwala na wyświetlenie pliku linijka po linijce
 with open("dane.txt", "r") as plik:
     for linia in plik:
-    print(linia, end="")
+        print(linia, end="")
 ```
 
 **Zad. 1**  
@@ -244,7 +244,7 @@ class Ksztalty:
         self.y=y
         self.opis = "To będzie klasa dla ogólnych kształtów"
 
-    def pole_prostokata(self):
+    def pole(self):
         return self.x * self.y
 
     def obwod(self):
@@ -262,7 +262,7 @@ class Ksztalty:
 kwadrat= Ksztalty(10,30)
 
 # Sprawdzamy teraz jak działają metody które zwracają wartość
-print(kwadrat.pole_prostokata())
+print(kwadrat.pole())
 print(kwadrat.obwod())
 
 # sprawdzamy jak działają metody, które nie zwracają wartości
@@ -294,7 +294,7 @@ class Ksztalty:
         self.y = y
         self.opis = "To będzie klasa dla ogólnych kształtów"
 
-    def pole_prostokata(self):
+    def pole(self):
         return self.x*self.y
 
     def obwod(self):
