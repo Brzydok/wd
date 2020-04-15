@@ -29,7 +29,7 @@ python -m virtualenv C:\projekty\projekt_2021
 **Krok 3**  
 Instalujemy Numpy:
 ```console
-pythnon -m pip install numpy
+python -m pip install numpy
 ```
 jeżeli `pip` znajduje się w folderze, który jest na jednej ze ścieżek zmiennej `PATH` możemy pominąć część polecenia:
 ```console
