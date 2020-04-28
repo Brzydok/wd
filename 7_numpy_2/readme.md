@@ -129,7 +129,7 @@ import numpy as np
 b = np.arange(6).reshape(3,2)
 print(b)
 for a in b:
-   # iterujemy wzdluż pierwszej osi
+   # iterujemy wzdłuż pierwszej osi
    print(a)
 ```
 
