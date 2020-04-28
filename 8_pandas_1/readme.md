@@ -229,9 +229,7 @@ Więcej przykładów i możliwości biblioteki Pandas można znaleźć w obszern
 
 **Zadanie 1**
 
-Wczytaj do DataFrame arkusz z narodzinami dzieci w Polsce dostępny pod adresem http://github.com/kropiak/wd/8_numpy_1/datasets/imiona.xlsx
-
-
+Wczytaj do DataFrame arkusz z narodzinami dzieci w Polsce dostępny w pliku [/datasets/imiona.xlsx](./datasets/imiona.xlsx)
 
 
 **Zadanie 2**
