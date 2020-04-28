@@ -245,7 +245,7 @@ Z danych z zadania 1 wyświetl (korzystając w miarę możliwości z funkcji bib
 
 **Zadanie 3**
 
-Wczytaj plik http://github.com/kropiak/wd/8_numpy_1/datasets/zamowienia.csv a następnie wyświetl:
+Wczytaj plik [/datasets/zamowieniana.csv](./datasets/zamowienia.csv) a następnie wyświetl:
 - listę unikalnych nazwisk sprzedawców (przetwarzając zwróconą pojedynczą kolumnę z DataFrame)
 - 5 najwyższych wartości zamówień
 - ilość zamówień złożonych przez każdego sprzedawcę
