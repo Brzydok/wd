@@ -44,6 +44,7 @@ print(df)
 df.to_csv('plik.csv', header=None, index=False)
 
 # Excel - wymagana bibioteka xlrd oraz openpyxl
+# trzeba przed importem je zainstalować
 import xlrd
 import openpyxl
 
@@ -87,8 +88,10 @@ print(df[1:])
 
 # kolumna po etykiecie
 print(df['Populacja'])
-# pojedyncza kolumna ze zbioru kolumn
-print(df.ix[:, 'Stolica'])
+# atrybut .ix został usuniety począwszy od wersji 0.20.0 biblioteki Pandas
+# za jego pomocą można było uzywac metodologii cięcia DataFrame'a zarówno jak
+# w .loc oraz .iloc
+# print(df.ix[:, 'Stolica'])
 
 # pobieranie pojedynczej wartości po indeksie kolumny i wiersza
 print(df.iloc[[0], [0]])
@@ -97,12 +100,6 @@ print(df.iloc[[0], [0]])
 # pobieranie wartości po indeksie wiersza i etykiecie kolumny
 print(df.loc[[0],  ['Kraj']])
 print(df.at[0, 'Kraj'])
-
-# pojedynczy wiersz
-print(df.ix[2])
-
-# wybiera kolumnę z podanego wiersza
-print(df.ix[1, 'Stolica'])
 
 # podobnie jak w przypadku serii można odwoływać się do kolumn jak do pól klasy
 # dodatkowo print jest wywoływany jak w pętli dla każdego elementu danej kolumny
