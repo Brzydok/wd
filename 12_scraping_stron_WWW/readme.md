@@ -85,7 +85,7 @@ Instalujemy pakiet `lxml` oraz `requests`.
 
 **Pobierania zawartości strony**
 
-Spróbujmy ściągnąć stronę listingu z BoardGameGeek i wyświetlić w konsoli źródło strony.
+Spróbujmy ściągnąć stronę listingu z BoardGameGeek i wyświetlić w konsoli źródło strony.  
 
 **Przykład 1:**  
 ```python
@@ -143,8 +143,6 @@ import requests
 
 url = "https://boardgamegeek.com/browse/boardgame"
 data = requests.get(url)
-#print html
-# print(data.text)
 
 page = html.fromstring(data.text)
 # tabela z grami wszechczasów (tylko pierwsza strona !), pobrana za pomocą XPath
@@ -207,7 +205,8 @@ soup = BeautifulSoup(page.data, 'lxml')
 print(soup)
 ```
 
-Pobranie zawartości tabeli może wyglądać jak poniżej.
+Pobranie zawartości tabeli może wyglądać jak poniżej.  
+
 **Przykład 6:**  
 ```python
 from bs4 import BeautifulSoup
@@ -245,7 +244,8 @@ Do danych z zadania 4 dodaj dane z tej samej kategorii, ale z 10 pierwszych stro
 ## Inne pakiety warte uwagi
 
 Przeglądanie struktury dokumentu i nastepnie pobieranie danych jest dość żmudnym zajęciem, ale czasem nie ma innej drogi. Dużo łatwiej jest korzystać z API, które zostało udostępnione na zewnątrz (często odpłatnie). Jednak to nie jest sytuacja częsta dla mało popularnych danych lub stron, nad którymi nie mamy kontroli i nie możemy samodzielnie stworzyć stosownego mechanizmu. Czasem dużo łatwiej jest wyświetlić jakieś dane poprze operacje myszą/klawiaturą szczególnie dzisiaj, kiedy strony przepełnione są kodem JavaScript. Narzędziem, które jest niezwykle popularne, szczególnie jeżeli chodzi o testowanie aplikacji webowych, jest **Selenium**, dzieki któremu możemy symulować zdarzenia na stronie taj jakbyśmy byli użytkownikiem-człowiekiem.  
-Innym pakietem, którego użycie w procesie web scrappingu są PyQuery oraz popularny ostatnio **Scrappy**.
+
+Innym pakietem, którego użycie w procesie web scrappingu są **PyQuery** oraz popularny 'kombajn' **Scrappy**.
 
 Więcej info na stronie https://elitedatascience.com/python-web-scraping-libraries
 
