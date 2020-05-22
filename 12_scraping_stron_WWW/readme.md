@@ -235,7 +235,7 @@ for tr in soup.find('table').find_all('tr'):
 
 **Zadanie 4**  
 
-Ze strony https://metacritics.com pobierz dane (tytuł, platforma, data wydania, ocena) z pierwszej strony wyników najbardziej popularnych gier video w kategorii 'strategy'. Zapisz dane do pandas DataFrame i je wyświetl.
+Ze strony https://metacritic.com pobierz dane (tytuł, platforma, data wydania, ocena) z pierwszej strony wyników najbardziej popularnych gier video w kategorii 'strategy'. Zapisz dane do pandas DataFrame i je wyświetl.
 
 **Zadanie 5**  
 
